@@ -87,7 +87,7 @@ rbenv install 3.1.4
 rbenv versions
 ```
 
-로 목록을 확인할 수 있고 
+로 목록을 확인할 수 있고
 
 ```bash
 rbenv local 3.1.4
@@ -107,3 +107,26 @@ ruby -v
 🔗 링크 rbenv : [https://github.com/rbenv/rbenv](https://github.com/rbenv/rbenv)
 
 🔗 링크 ruby-build : [https://github.com/rbenv/ruby-build](https://github.com/rbenv/ruby-build)
+
+## cocoapods 설치
+
+이제 ```ruby```가 업데이트 되었으니 ```gem```을 업데이트 하고 설치를 진행해 보자
+
+```bash
+gem update
+```
+
+```cocoapods``` 설치 하기
+
+```bash
+gem install cocoapods
+```
+
+잘 설치가 되었다
+
+```bash
+ERROR:  While executing gem ... (Gem::FilePermissionError)
+    You don't have write permissions for the /Library/Ruby/Gems/2.6.0 directory.
+```
+
+이제 이 ```Error``` 와는 안녕이다~ 👋
