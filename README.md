@@ -93,6 +93,8 @@ rbenv versions
 rbenv local 3.1.4
 rbenv global 3.1.4
 ```
+> [!WARNING]
+> 버전이 바뀌지 않았다면 ```rbenv init```를 입력하여 나오는 eval path를 진행해준다
 
 버전을 설정한 다음 터미널을 재시작 함으로 버전이 바뀐것을 알 수 있다.
 
